@@ -1,0 +1,26 @@
+{
+    "node": {
+        "001": {
+            "name": "Your house",
+            "description": "This is your house, you sleep and piss here, it's starting to smell..",
+            "directions": {
+                "north": "002",
+                "east": "003"
+            }
+        },
+        "002": {
+            "name": "Hartuan",
+            "description": "Hartuan, a haven for thieves and gamblers alike..",
+            "directions": {
+                "south": "001"
+            }
+        },
+        "003": {
+            "name": "Otravia",
+            "description": "Otravia, the realm of the king..",
+            "directions": {
+                "west": "001"
+            }
+        }
+    }
+}

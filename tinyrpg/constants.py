@@ -1,0 +1,1 @@
+VALID_DIRECTIONS = ['north', 'south', 'east', 'west']
