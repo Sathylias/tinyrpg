@@ -1,26 +1,52 @@
 {
     "node": {
         "001": {
-            "name": "Your house",
-            "description": "This is your house, you sleep and piss here, it's starting to smell..",
+            "name": "City of Lamarr - Lone Wolf Tavern",
+            "description": "The best tavern in town, also the only tavern in town..\nYou recognize |andre, an old man who used to be an adventurer just like you. He's sitting at a table all by himself.\nThere's also the |barman who's talking to another character that hasn't been implemented yet..",
             "directions": {
                 "north": "002",
                 "east": "003"
+            },
+            "npc": {
+                "andre": {
+                    "name": "Andre",
+                    "msg": [
+                        "Hey there, adventurer, how ya doin' ?",
+                        "I used to be an adventurer just like you, but then I took an arrow in the knee.."
+                    ]
+                },
+                "barman": {
+                    "name": "Barman",
+                    "msg": [
+                        "Howdy, tis' a fine day for a whiskey, wouldn't you say ?",
+                        "Whiskey, rhum, our finest pint of ale, what say you ?"
+                    ]
+                }
             }
         },
         "002": {
-            "name": "Hartuan",
-            "description": "Hartuan, a haven for thieves and gamblers alike..",
+            "name": "City of Lamarr - Town Square",
+            "description": "There's a troup of |bards playing music in a corner of the street, the merchants are getting their stands prepped up for the day ahead, childrens are playing together and birds are cawing.",
             "directions": {
                 "south": "001"
+            },
+            "npc": {
+                "bards": {
+                    "name": "Bards",
+                    "msg": [
+                        "♪ Roses are red, sky blue, life is grey.. ♪",
+                        "♪ My love is blind, tainted by scarlet blood.. ♪"
+                    ]
+                }
             }
         },
         "003": {
-            "name": "Otravia",
+            "name": "City of Lamarr - Church",
             "description": "Otravia, the realm of the king..",
             "directions": {
                 "west": "001"
-            }
+            },
+            "npc": {}
         }
     }
 }
