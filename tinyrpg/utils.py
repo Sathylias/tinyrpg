@@ -1,7 +1,8 @@
 import os
 import json
+import re
 
-from .constants import Color
+from .constants import Color, TINYRPG_VERSION
 
 
 def read_json(json_file: str) -> dict:
@@ -12,9 +13,12 @@ def read_json(json_file: str) -> dict:
     with open(json_path, "r", encoding="utf-8") as json_f:
         return json.loads(json_f.read())
 
-def printformat(msg: str):
-    for word in msg.split(' '):
-        if word[0] == '|':
-            print(Color.GREEN + word.strip('|') + Color.ENDC, end=" ")
+def printformat(msg: str, colored: list):
+    for word in re.split('([ .,])', msg):
+        if word in colored:
+            print(Color.GREEN + word + Color.ENDC, end="")
         else:
-            print(word, end=" ")
+            print(word, end="")
+
+def get_version():
+    return f'TinyRPG Version {TINYRPG_VERSION}'

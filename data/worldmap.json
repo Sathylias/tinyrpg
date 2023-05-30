@@ -2,7 +2,7 @@
     "node": {
         "001": {
             "name": "City of Lamarr - Lone Wolf Tavern",
-            "description": "The best tavern in town, also the only tavern in town..\nYou recognize |andre, an old man who used to be an adventurer just like you. He's sitting at a table all by himself.\nThere's also the |barman who's talking to another character that hasn't been implemented yet..",
+            "description": "The best tavern in town, also the only tavern in town..\nYou recognize andre, an old man who used to be an adventurer just like you. He's sitting at a table all by himself.\nThere's also the barman who's talking to another character that hasn't been implemented yet..",
             "directions": {
                 "north": "002",
                 "east": "003"
@@ -26,7 +26,7 @@
         },
         "002": {
             "name": "City of Lamarr - Town Square",
-            "description": "There's a troup of |bards playing music in a corner of the street, the merchants are getting their stands prepped up for the day ahead, childrens are playing together and birds are cawing.",
+            "description": "There's a troup of bards playing music in a corner of the street, the merchants are getting their stands prepped up for the day ahead, childrens are playing together and birds are cawing.",
             "directions": {
                 "south": "001"
             },
@@ -34,8 +34,8 @@
                 "bards": {
                     "name": "Bards",
                     "msg": [
-                        "♪ Roses are red, sky blue, life is grey.. ♪",
-                        "♪ My love is blind, tainted by scarlet blood.. ♪"
+                        "♪ Even if you're lost, you can't lose the love because it's in your heart ♪",
+                        "♪ Toss a coin to your whore, oh, breast they are plenty, oh oh oh.. ♪"
                     ]
                 }
             }

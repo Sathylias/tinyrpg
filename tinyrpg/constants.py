@@ -12,3 +12,5 @@ class Color:
     ENDC = "\033[0m"
     BOLD = "\033[1m"
     UNDERLINE = "\033[4m"
+
+TINYRPG_VERSION = '0.0.1'
